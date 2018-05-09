@@ -1,3 +1,43 @@
+
+/*css 权重
+!important 			光叔 无限大
+行间样式				1000
+id  				100
+class|属性|伪类		10
+标签|伪元素			1
+通配符				0*/
+
+em, 
+span {
+	background-color: #f40;
+}
+
+
+.wrapper .box em{
+	background-color: green;
+	border: 1px solid black;
+
+	border-style: dashed;
+}
+
+div {
+	font-size: 19px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #demo1 {
 	width: 100px;
 	height: 100px;
@@ -36,13 +76,6 @@ span {
 
 
 
-/*css 权重
-!important 			光叔 无限大
-行间样式				1000
-id  				100
-class|属性|伪类		10
-标签|伪元素			1
-通配符				0*/
 
 
 
