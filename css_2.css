@@ -1,0 +1,70 @@
+
+/*css 权重
+!important 			光叔 无限大
+行间样式				1000
+id  				100
+class|属性|伪类		10
+标签|伪元素			1
+通配符				0*/
+
+span {
+	display: inline;
+}
+
+div {
+	display: block;
+}
+
+
+#choose:hover {
+	background-color: orange;
+}
+
+.class:hover {
+	background-color: #f40;
+	color:#fff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+em {
+	text-decoration: line-through;
+}
+
+span {
+	color: rgb(0,0,238);
+	text-decoration: underline;
+	cursor: pointer;		/*鼠标提示符*/
+
+}
+
+
+div {
+	font-size: 20px;
+	border : 1px solid black;
+	text-align:left; 
+	height: 200px;
+	line-height: 1.2em;  /*单行居中 文本高度=行高度*/
+	text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
