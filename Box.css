@@ -1,85 +1,13 @@
-
-/*css 权重
-!important 			光叔 无限大
-行间样式				1000
-id  				100
-class|属性|伪类		10
-标签|伪元素			1
-通配符				0*/
-
-em, 
-span {
-	background-color: #f40;
-}
-
-
-.wrapper .box em{
-	background-color: green;
-	border: 1px solid black;
-
-	border-style: dashed;
-}
-
-div {
-	font-size: 19px;
-	font-weight: bold;
-	font-style: normal;
-	font-family: cursive;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#demo1 {
+.wrapper {
+	border: 10px solid green;
 	width: 100px;
 	height: 100px;
-	border-radius: 50%;
-	background-color: black;
-	color: gray;
-}
-
-#demo2 {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background-color: black;
-	color: orange;
-}
-.demo3 {
-	width: 1000px;
-	height: 100px;
-	background-color: black;
-	color: red;
-}
-
-span {
-	color: red;
-	font-weight: bold;
-}
-
-
-[id] {
 	background-color: red;
+	padding: 10px 20px 30px 40px;  /*上右下左*/
 }
 
-[class] {
-	color:white;
+.content {
+	width: 100px;
+	height: 100px;
+	background-color: black;
 }
-
-
-
-
-
-
-
-
-
-
