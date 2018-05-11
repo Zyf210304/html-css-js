@@ -6,6 +6,65 @@ id  				100
 class|属性|伪类		10
 标签|伪元素			1
 通配符				0*/
+/*
+盒子三大组成部分
+盒子壁 border
+
+内边距 padding 
+
+盒子内容  width + height
+
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+em {
+	font-style: normal;
+	color: #c00;
+}
+
+a {
+	text-decoration: none;
+	color: #f40;
+}
+
+
+
+
+
+
+.red {
+	background-color: red;
+}
+.green {
+	background-color: green;
+}
+.gray {
+	background-color: gray;
+}
+
+
+.size1 {
+	width: 200px;
+	height: 200px;
+}
+.size2 {
+	width: 200px;
+	height: 200px;
+}
+.size3 {
+	width: 300px;
+	height: 300px;
+}
+
+
+img {
+	width: 100px;
+	height: 100px;
+	background-color:#f40;
+}
 
 span {
 	display: inline;
