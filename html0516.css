@@ -1,0 +1,76 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wapper {
+	height: 30px;
+	background-color: #eee;
+
+}
+
+
+.content {
+	margin: 0 auto;
+	width: 800px;
+	height: 30px;
+	background-color: #777;
+}
+
+
+
+.text1 {
+	font-size: 50px;
+}
+
+.textDiv {
+	width: 150px;
+	height: 150px;
+	background-color: #f41;
+}
+
+
+
+
+
+
+.changeLine {
+	width: 300px;
+	height: 40px;
+	border: 1px solid #f40;
+
+
+	white-space: nowrap;  			
+	overflow: hidden;  			
+	text-overflow: ellipsis;   //多行只做 节段 不打点		
+
+}
+
+.BGImg {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #f410;
+	background-color: #ccc;
+	background-image: url(timg.jpeg);
+	background-size:  100px, 100px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.testImg {
+	display: inline-block;
+	text-decoration: none;
+	color: #424242;
+	width: 150px;
+	height: 0px;
+	/*height: 75px;*/
+	padding-top: 150px;
+	overflow: hidden;
+	background-size: 150px 75px;
+	background-image: url(http://img0.bdstatic.com/static/searchresult/img/logo-2X_b99594a.png);
+
+	/*text-indent: 150px;
+	white-space: nowrap;
+	overflow: hidden;*/
+}
